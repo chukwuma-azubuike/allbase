@@ -1,9 +1,59 @@
-import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { CircularProgress } from "@material-ui/core";
+import { BASE_URL } from "../../../api/baseUrl";
+import { Navigate } from 'react-router-dom';
 
 export default function LoginForm() {
+
+    const [email, setEmail] = useState()
+    const [password, setPassword] = useState()
+    const [submitButtonTitle, setSubmitButtonTitle] = useState('Login →');
+    const [loggedIn, setLoggedIn] = useState()
+
+    useEffect(() => {
+        if (sessionStorage.getItem('loggedIn')) {
+            setLoggedIn(sessionStorage.getItem('loggedIn'))
+        }
+    })
+
+    if (loggedIn) return <Navigate to="/dashboard" /> //Redirect to login on successful signup
+
+    const handleSumbit = (e) => {
+        e.preventDefault();
+        setSubmitButtonTitle(<CircularProgress style={{ color: '#FFFFFF', width: '25px', height: 'auto' }} />)
+
+
+        const data = {
+            email: email,
+            password: password,
+            email: "eve.holt@reqres.in",
+            password: "pistol"
+        }
+
+        let jsonData = JSON.stringify(data)
+
+        let options = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: jsonData,
+            redirect: 'follow'
+        }
+
+        fetch(`${BASE_URL}/login`, options)
+            .then(res => res.json())
+            .then(response => {
+                if (response.token) {
+                    sessionStorage.setItem('loggedIn', response)
+                    setLoggedIn(response.token)
+                }
+            })
+            .catch(err => { console.warn(err) })
+    }
+
     return (
-        <form>
+        <form onSubmit={handleSumbit} >
             <label>
                 <p className='text-xs' >Email</p>
                 <input
@@ -28,7 +78,7 @@ export default function LoginForm() {
                 />
             </label>
             <div className='text-center'>
-                <Button text='Login →' />
+                <Button text={submitButtonTitle} />
                 <div className='mt-7 text-xs' >
                     <span>Don’t have an account?</span>
                     <span className='text-primarygreen cursor-pointer'>
