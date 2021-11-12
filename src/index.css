@@ -31,6 +31,16 @@ code {
   grid-template-columns: 24rem auto;
 }
 
+.dashboard-container{
+  display: grid;
+  grid-template-columns: 13rem auto;
+}
+
+.dashboard-body{
+  display: grid;
+  grid-template-rows: 5rem auto;
+}
+
 input{
   outline: none;
 }
@@ -49,4 +59,8 @@ input{
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+.slim-border-bottom{
+  border-bottom: 1px solid #b4b6b3;
 }

@@ -9,8 +9,11 @@ module.exports = {
         primarygreen: '#1EB2A6',
         lightgreen: '#1EB2A60A',
         blue: '#18B2D2',
+        primaryblue: '#526A98',
         authbg: '#f8faff',
-        primarygrey: '#DAE2ED'
+        primarygrey: '#DAE2ED',
+        bodybg: '#f4f4f4',
+        lowerbg: '#d2f0ed'
       },
       fontFamily: {
         'hk': ['HK Grotesk']
