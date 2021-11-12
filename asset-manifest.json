@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/allbase/static/css/main.6a74abec.chunk.css",
+    "main.css": "/allbase/static/css/main.5f10274a.chunk.css",
     "main.js": "/allbase/static/js/main.d6fa37a8.chunk.js",
     "main.js.map": "/allbase/static/js/main.d6fa37a8.chunk.js.map",
     "runtime-main.js": "/allbase/static/js/runtime-main.09dbd632.js",
@@ -10,7 +10,7 @@
     "static/js/3.32cc1c1b.chunk.js": "/allbase/static/js/3.32cc1c1b.chunk.js",
     "static/js/3.32cc1c1b.chunk.js.map": "/allbase/static/js/3.32cc1c1b.chunk.js.map",
     "index.html": "/allbase/index.html",
-    "static/css/main.6a74abec.chunk.css.map": "/allbase/static/css/main.6a74abec.chunk.css.map",
+    "static/css/main.5f10274a.chunk.css.map": "/allbase/static/css/main.5f10274a.chunk.css.map",
     "static/js/2.acac5443.chunk.js.LICENSE.txt": "/allbase/static/js/2.acac5443.chunk.js.LICENSE.txt",
     "static/media/index.css": "/allbase/static/media/circuit-board 1.f9728b74.svg",
     "static/media/arrow.071d08c7.svg": "/allbase/static/media/arrow.071d08c7.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.09dbd632.js",
     "static/js/2.acac5443.chunk.js",
-    "static/css/main.6a74abec.chunk.css",
+    "static/css/main.5f10274a.chunk.css",
     "static/js/main.d6fa37a8.chunk.js"
   ]
 }
