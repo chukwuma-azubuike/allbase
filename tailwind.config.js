@@ -17,6 +17,9 @@ module.exports = {
       },
       fontFamily: {
         'hk': ['HK Grotesk']
+      }, screens:{
+        'xs': '425px',
+        'xxs': '275px'
       }
     },
   },

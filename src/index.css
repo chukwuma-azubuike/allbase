@@ -83,6 +83,12 @@ input{
   grid-template-columns: 25% 40% 25%;
 }
 
+.appointments{
+  /* grid-template-columns: 8rem 7rem 12rem 12rem 12rem 6rem; */
+  /* grid-column-start: 100px;
+  grid-column-end: 500px; */
+}
+
 @media (max-width:1445px) {
   .activities-container{
     grid-template-columns: 30% 60%;

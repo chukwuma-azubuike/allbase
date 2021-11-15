@@ -7,13 +7,13 @@ export default function Appointments(props) {
                 <h1>Pending Installation Request</h1>
                 <p className='cursor-pointer text-sm' >View All</p>
             </div>
-            <div className='px-4 py-4 text-white grid grid-cols-6 bg-primarygreen w-full' >
-                <h1>Customer Name</h1>
-                <h1>Request Type</h1>
-                <h1>Request Date</h1>
-                <h1>Contact Person</h1>
-                <h1>Status</h1>
-                <h1>Action</h1>
+            <div className='px-4 py-4 text-white grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 bg-primarygreen w-full' >
+                <h1 className='hidden xxs:block'>Customer Name</h1>
+                <h1 className='hidden sm:block'>Request Type</h1>
+                <h1 className='hidden xxs:block'>Request Date</h1>
+                <h1 className='hidden md:block'>Contact Person</h1>
+                <h1 className='hidden xl:block'>Status</h1>
+                <h1 className='hidden 2xl:block'>Action</h1>
             </div>
             <div className='px-4' >
                 <ul>
