@@ -57,6 +57,7 @@ export default function LoginForm() {
             <label>
                 <p className='text-xs' >Email</p>
                 <input
+                    required
                     type='email'
                     placeholder='Enter your email address'
                     className='rounded placeholder-primarygrey border-primarygrey py-4 px-3 w-full border-2 text-sm my-2'
@@ -72,6 +73,7 @@ export default function LoginForm() {
                     </span>
                 </div>
                 <input
+                    required
                     type='password'
                     placeholder='Enter a password'
                     className='rounded placeholder-primarygrey border-primarygrey py-4 px-3 w-full border-2 text-sm my-2'
