@@ -19,6 +19,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.body-container{
+  /* min-width: 1300px; */
+}
+
+.summary{
+  min-width: 175px;
+}
+
 .font-light{
   font-family: light;
 }
@@ -69,4 +77,41 @@ input{
 
 .slim-border-bottom{
   border-bottom: 1px solid #b4b6b3;
+}
+
+.activities-container{
+  grid-template-columns: 25% 40% 25%;
+}
+
+@media (max-width:1445px) {
+  .activities-container{
+    grid-template-columns: 30% 60%;
+  }
+}
+
+@media (max-width:1220px) {
+  .summary-container{
+    grid-template-columns: repeat(3, minmax(0, 1fr));  
+  }
+}
+
+@media (max-width:1085px) {
+  .activities-container{
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width:1000px) {
+  .summary-container{
+    grid-template-columns: repeat(2, minmax(0, 1fr));  
+  }
+}
+
+@media (max-width:720px) {
+  .summary-container{
+    grid-template-columns: repeat(1, minmax(0, 1fr));  
+  }
+  .activities-container{
+    grid-template-columns: 100%;
+  }
 }

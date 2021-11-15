@@ -2,11 +2,7 @@ import ListActivities from './ListActivities'
 
 export default function Activities(props) {
     return (
-        <div className='container-shadow rounded-md bg-white'
-            style={{
-                width: props.width ? props.width : '25%'
-            }}
-        >
+        <div className='container-shadow rounded-md bg-white min-w-max'>
             <div className='rounded-t-md px-4 py-2 text-white bg-primarygreen w-full' >
                 <h1>{props.title}</h1>
                 <p className='text-sm font-light'>{props.desc}</p>
@@ -25,7 +21,7 @@ export default function Activities(props) {
             </div>
             <div className='text-center text-primarygreen bg-lowerbg'>
                 <p className='text-xs py-2 mt-2'>{props.all}</p>
-            </div>
+            </div> 
         </div>
     )
 }

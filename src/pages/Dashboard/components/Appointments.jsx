@@ -7,7 +7,7 @@ export default function Appointments(props) {
                 <h1>Pending Installation Request</h1>
                 <p className='cursor-pointer text-sm' >View All</p>
             </div>
-            <div className='px-4 py-4 text-white grid grid-cols-6 bg-primarygreen w-full font-light' >
+            <div className='px-4 py-4 text-white grid grid-cols-6 bg-primarygreen w-full' >
                 <h1>Customer Name</h1>
                 <h1>Request Type</h1>
                 <h1>Request Date</h1>
