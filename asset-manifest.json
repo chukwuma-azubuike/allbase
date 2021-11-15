@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/allbase/static/css/main.7ffc0b24.chunk.css",
-    "main.js": "/allbase/static/js/main.23bfd389.chunk.js",
-    "main.js.map": "/allbase/static/js/main.23bfd389.chunk.js.map",
+    "main.css": "/allbase/static/css/main.9d8a076c.chunk.css",
+    "main.js": "/allbase/static/js/main.00fc014b.chunk.js",
+    "main.js.map": "/allbase/static/js/main.00fc014b.chunk.js.map",
     "runtime-main.js": "/allbase/static/js/runtime-main.ebc9ad25.js",
     "runtime-main.js.map": "/allbase/static/js/runtime-main.ebc9ad25.js.map",
     "static/js/2.a1a566d0.chunk.js": "/allbase/static/js/2.a1a566d0.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e104f092.chunk.js": "/allbase/static/js/3.e104f092.chunk.js",
     "static/js/3.e104f092.chunk.js.map": "/allbase/static/js/3.e104f092.chunk.js.map",
     "index.html": "/allbase/index.html",
-    "static/css/main.7ffc0b24.chunk.css.map": "/allbase/static/css/main.7ffc0b24.chunk.css.map",
+    "static/css/main.9d8a076c.chunk.css.map": "/allbase/static/css/main.9d8a076c.chunk.css.map",
     "static/js/2.a1a566d0.chunk.js.LICENSE.txt": "/allbase/static/js/2.a1a566d0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/allbase/static/media/circuit-board 1.f9728b74.svg",
     "static/media/arrow.071d08c7.svg": "/allbase/static/media/arrow.071d08c7.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ebc9ad25.js",
     "static/js/2.a1a566d0.chunk.js",
-    "static/css/main.7ffc0b24.chunk.css",
-    "static/js/main.23bfd389.chunk.js"
+    "static/css/main.9d8a076c.chunk.css",
+    "static/js/main.00fc014b.chunk.js"
   ]
 }
