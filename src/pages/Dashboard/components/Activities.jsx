@@ -9,7 +9,7 @@ export default function Activities(props) {
         >
             <div className='rounded-t-md px-4 py-2 text-white bg-primarygreen w-full' >
                 <h1>{props.title}</h1>
-                <p className='text-sm'>{props.desc}</p>
+                <p className='text-sm font-light'>{props.desc}</p>
             </div>
             <div className='px-4' >
                 <ul>

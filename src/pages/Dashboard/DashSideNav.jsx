@@ -22,7 +22,7 @@ export default function DashSideNav() {
         <nav className='w-52 container-shadow p-4 text-md h-screen sticky top-0' >
             <div><img className='w-auto m-auto' src={logo} alt='logo' /></div>
             <div className='py-16 box-border' >
-                <ul>
+                <ul className='font-light' >
                     <li className='flex items-center mb-8 cursor-pointer' ><img className='w-6 mr-3 ' src={dashboard} /> <span>Dashboard</span> </li>
                     <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
                         <img className='w-6 mr-3' src={inventory} alt='inventory' />

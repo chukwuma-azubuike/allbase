@@ -7,11 +7,20 @@
   src: url('./assets/OTF/HKGrotesk-Medium.otf');
 }
 
+@font-face {
+  font-family: light;
+  src: url('./assets/OTF/HKGrotesk-Light.otf');
+}
+
 body {
   margin: 0;
   font-family: primary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.font-light{
+  font-family: light;
 }
 
 code {

@@ -2,7 +2,7 @@ import naira from '../../../assets/naira.svg'
 
 export default function ListActivities(props) {
     return (
-        <div className=' flex items-center h-14 py-3 slim-border-bottom justify-between'>
+        <div className=' flex items-center h-14 py-3 slim-border-bottom justify-between font-light'>
             {props.email && <div>
                 <p>{props.name}</p>
                 <div className='flex items-center text-sm' >
