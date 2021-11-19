@@ -9,7 +9,7 @@ export default function TopNav() {
     const { openCloseFunc } = useOpenClose()
 
     const handleOpenClose = () => {
-        openCloseFunc('dash-side-nav')
+        openCloseFunc('mob-side-nav')
     }
 
     return (

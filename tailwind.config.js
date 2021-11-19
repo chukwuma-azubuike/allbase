@@ -17,11 +17,14 @@ module.exports = {
       },
       fontFamily: {
         'hk': ['HK Grotesk']
-      }, screens:{
+      }, screens: {
         'xs': '425px',
         'xxs': '275px'
+      },
+      inset: {
+        '-100': '-36rem'
       }
-    },
+    }
   },
   variants: {
     extend: {},

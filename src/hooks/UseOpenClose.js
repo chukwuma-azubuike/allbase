@@ -8,7 +8,7 @@ export default function useOpenClose() {
         setOpen(!open)
         if (bool === false) {
             document.getElementById(id).style.position = 'absolute';
-            document.getElementById(id).style.left = '-224px';
+            document.getElementById(id).style.left = '-36rem';
             return
         }
         if (!open) {
@@ -19,7 +19,7 @@ export default function useOpenClose() {
         } else if (open) {
             // alert('close')
             document.getElementById(id).style.position = 'absolute';
-            document.getElementById(id).style.left = '-224px';
+            document.getElementById(id).style.left = '-36rem';
         }
     }
 
