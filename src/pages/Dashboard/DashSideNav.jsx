@@ -19,11 +19,11 @@ export default function DashSideNav() {
     }
 
     return (
-        <nav className='w-52 container-shadow p-4 text-md h-screen sticky top-0' >
+        <nav id='dash-side-nav' className='w-52 container-shadow p-4 text-md h-screen absolute -left-56 top-0 sm:sticky sm:left-0 transition-all bg-white' > 
             <div><img className='w-auto m-auto' src={logo} alt='logo' /></div>
             <div className='py-16 box-border' >
                 <ul className='font-light' >
-                    <li className='flex items-center mb-8 cursor-pointer' ><img className='w-6 mr-3 ' src={dashboard} /> <span>Dashboard</span> </li>
+                    <li className='flex items-center mb-8 cursor-pointer' ><img className='w-6 mr-3' src={dashboard} /> <span>Dashboard</span> </li>
                     <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
                         <img className='w-6 mr-3' src={inventory} alt='inventory' />
                         <span className='flex justify-between w-full' >

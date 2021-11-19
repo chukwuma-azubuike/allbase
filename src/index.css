@@ -17,10 +17,10 @@ body {
   font-family: primary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.body-container{
-  /* min-width: 1300px; */
+  transition:all .5s ease-in-out; 
+  -o-transition:all .5s ease-in-out; 
+  -moz-transition:all .5s ease-in-out; 
+  -webkit-transition:all .5s ease-in-out;
 }
 
 .summary{
