@@ -29,7 +29,7 @@ export default function MobileSideNav() {
         <nav id='mob-side-nav' className='w-full container-shadow p-4 text-3xl h-full absolute top-0 -left-100 sm:hidden transition-all bg-white' >
             <div><img className='w-auto m-auto' src={logo} alt='logo' /></div>
             <div className='py-16 box-border' >
-                <ul className='font-light max-w-max m-auto' onClick={handleOpenClose} >
+                <ul className='font-light max-w-max m-auto'>
                     <li className='flex items-center mb-8 cursor-pointer' ><img className='w-10 mr-16' src={dashboard} /> <span>Dashboard</span> </li>
                     <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
                         <img className='w-10 mr-16' src={inventory} alt='inventory' />
