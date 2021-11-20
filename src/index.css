@@ -46,7 +46,6 @@ code {
 }
 
 .dashboard-container{
-  display: grid;
   grid-template-columns: 13rem auto;
 }
 

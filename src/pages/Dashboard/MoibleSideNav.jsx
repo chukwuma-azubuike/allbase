@@ -30,38 +30,40 @@ export default function MobileSideNav() {
             <div><img className='w-auto m-auto' src={logo} alt='logo' /></div>
             <div className='py-16 box-border' >
                 <ul className='font-light max-w-max m-auto'>
-                    <li className='flex items-center mb-8 cursor-pointer' ><img className='w-10 mr-16' src={dashboard} /> <span>Dashboard</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-10 mr-16' src={inventory} alt='inventory' />
-                        <span className='flex justify-between w-full' >
-                            <span>Inventory</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-10 mr-16' src={accessories} alt='accessories' />
-                        <span className='flex justify-between w-full' >
-                            <span>Accessories</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-10 mr-16' src={crm} /> <span>CRM</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-10 mr-16' src={serviceRequest} /> <span>Service Request</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-10 mr-16' src={device} /> <span>Device</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-10 mr-16' src={paymentHistory} alt='payment-history' />
-                        <span className='flex justify-between w-full' >
-                            <span>Payment History</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-10 mr-16' src={ticket} alt='ticket' />
-                        <span className='flex justify-between w-full' >
-                            <span>Ticket</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
+                    <div>
+                        <li className='flex items-center mb-8 cursor-pointer' ><img alt='dashboard' className='w-10 mr-16' src={dashboard} /> <span>Dashboard</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-10 mr-16' src={inventory} alt='inventory' />
+                            <span className='flex justify-between w-full' >
+                                <span>Inventory</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-10 mr-16' src={accessories} alt='accessories' />
+                            <span className='flex justify-between w-full' >
+                                <span>Accessories</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='crm' className='w-10 mr-16' src={crm} /> <span>CRM</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='service request' className='w-10 mr-16' src={serviceRequest} /> <span>Service Request</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='device' className='w-10 mr-16' src={device} /> <span>Device</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-10 mr-16' src={paymentHistory} alt='payment-history' />
+                            <span className='flex justify-between w-full' >
+                                <span>Payment History</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-10 mr-16' src={ticket} alt='ticket' />
+                            <span className='flex justify-between w-full' >
+                                <span>Ticket</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                    </div>
                     <div className='absolute bottom-8'>
                         <li className='flex items-center mt-24 cursor-pointer text-gray-400' >
                             <img className='w-10 mr-16 ' src={settings} alt="settings" />

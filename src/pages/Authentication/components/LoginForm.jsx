@@ -26,8 +26,8 @@ export default function LoginForm() {
 
 
         const data = {
-            email: email,
-            password: password,
+            // email: email,
+            // password: password,
             email: "eve.holt@reqres.in",
             password: "pistol"
         }

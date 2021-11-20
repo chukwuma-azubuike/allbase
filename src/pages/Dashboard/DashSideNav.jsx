@@ -19,45 +19,47 @@ export default function DashSideNav() {
     }
 
     return (
-        <nav className='w-52 container-shadow p-4 text-md h-screen -left-56 top-0 sticky hidden sm:block sm:left-0 transition-all bg-white' > 
+        <nav className='w-52 container-shadow p-4 text-md h-screen -left-56 top-0 sticky hidden sm:block sm:left-0 transition-all bg-white' >
             <div><img className='w-auto m-auto' src={logo} alt='logo' /></div>
             <div className='py-16 box-border' >
-                <ul className='font-light' >
-                    <li className='flex items-center mb-8 cursor-pointer' ><img className='w-6 mr-3' src={dashboard} /> <span>Dashboard</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-6 mr-3' src={inventory} alt='inventory' />
-                        <span className='flex justify-between w-full' >
-                            <span>Inventory</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-6 mr-3' src={accessories} alt='accessories' />
-                        <span className='flex justify-between w-full' >
-                            <span>Accessories</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-6 mr-3' src={crm} /> <span>CRM</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-6 mr-3' src={serviceRequest} /> <span>Service Request</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img className='w-6 mr-3' src={device} /> <span>Device</span> </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-6 mr-3' src={paymentHistory} alt='payment-history' />
-                        <span className='flex justify-between w-full' >
-                            <span>Payment History</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
-                        <img className='w-6 mr-3' src={ticket} alt='ticket' />
-                        <span className='flex justify-between w-full' >
-                            <span>Ticket</span>
-                            <img className='' src={arrow} />
-                        </span>
-                    </li>
-                    <div className='absolute bottom-8'>
-                        <li className='flex items-center mt-24 cursor-pointer text-gray-400' >
-                            <img className='w-6 mr-3 ' src={settings} alt="settings" />
+                <ul className='font-light flex-col flex h-full' >
+                    <div>
+                        <li className='flex items-center mb-8 cursor-pointer' ><img alt='dashboard' className='w-6 mr-3' src={dashboard} /> <span>Dashboard</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-6 mr-3' src={inventory} alt='inventory' />
+                            <span className='flex justify-between w-full' >
+                                <span>Inventory</span>
+                                <img alt='' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-6 mr-3' src={accessories} alt='accessories' />
+                            <span className='flex justify-between w-full' >
+                                <span>Accessories</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='crm' className='w-6 mr-3' src={crm} /> <span>CRM</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='service request' className='w-6 mr-3' src={serviceRequest} /> <span>Service Request</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' ><img alt='device' className='w-6 mr-3' src={device} /> <span>Device</span> </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-6 mr-3' src={paymentHistory} alt='payment-history' />
+                            <span className='flex justify-between w-full' >
+                                <span>Payment History</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                        <li className='flex items-center mb-8 cursor-pointer text-gray-400' >
+                            <img className='w-6 mr-3' src={ticket} alt='ticket' />
+                            <span className='flex justify-between w-full' >
+                                <span>Ticket</span>
+                                <img alt='arrow' className='' src={arrow} />
+                            </span>
+                        </li>
+                    </div>
+                    <div className=''>
+                        <li className='flex items-center cursor-pointer mt-16 text-gray-400' >
+                            <img className='w-6 mr-3' src={settings} alt="settings" />
                             <span>Settings</span>
                         </li>
                         <li className='flex items-center mt-8 cursor-pointer text-gray-400' onClick={handleLogout}>

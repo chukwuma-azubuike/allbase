@@ -22,7 +22,7 @@ module.exports = {
         'xxs': '275px'
       },
       inset: {
-        '-100': '-36rem'
+        '-100': '-40rem'
       }
     }
   },

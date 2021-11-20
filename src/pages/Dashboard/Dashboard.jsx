@@ -9,7 +9,7 @@ export default function Dashboard() {
     if (!sessionStorage.getItem('loggedIn')) return <Navigate to='/login' /> //Access Criteria
 
     return (
-        <div className='dashboard-container' >
+        <div className='dashboard-container sm:grid' >
             <DashSideNav />
             <MobileSideNav />
             <div className='dashboard-body' >
